@@ -1,0 +1,9 @@
+@import url('./reset.css');
+
+:root {
+    --primary-color: hsl(223, 87%, 63%);
+    --secundary-blue: hsl(223, 100%, 88%);
+    --secundary-red: hsl(354, 100%, 66%);
+    --bg-body: hsl(0, 0%, 59%);
+    --dark-blue: hsl(209, 33%, 12%);
+}
