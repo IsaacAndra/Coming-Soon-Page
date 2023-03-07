@@ -1,0 +1,64 @@
+.principal {
+    height: 100vh;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+    text-align: center;
+    max-width: 375px;
+    background: var(--bg-container);
+}
+
+.email__descricao img{
+    margin-bottom: 50px;
+}
+
+.email__titulo {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+.email__titulo b{
+    font-weight: bold;
+}
+
+.email__form {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.email__input input {
+    width: 250px;
+    padding: 12px;
+    color: var(--secundary-blue);
+    border: 1px solid var(--secundary-blue);
+    border-radius: 20px;
+}
+
+.email__input input::placeholder {
+    color: var(--secundary-blue);
+}
+
+.email__form button {
+    width: 300px;
+    max-width: 278px;
+    font-weight: 600;
+    border: none;
+    background: var(--primary-color);
+    color: var(--bg-container);
+    padding: 12px;
+    border-radius: 20px;
+    align-self: center;
+}
+
+.image img {
+    max-width: 100%;
+}

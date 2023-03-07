@@ -1,0 +1,20 @@
+.rodape {
+    text-align: center;
+
+}
+
+.rodape__content {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.rodape__itens {
+    transition: .2s;
+}
+
+.rodape__itens:hover {
+    background: var(--primary-color);
+    border-radius: 50px;
+    align-self: center;
+}
