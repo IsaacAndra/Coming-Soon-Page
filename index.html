@@ -23,8 +23,9 @@
       <div class="email__form">
         <form class="email__input">
           <input type="email" name="email" id="email" placeholder="Your email address..." required>
+          <div class="email__error" id="email-error"></div>
+          <button type="submit">Notify Me</button>
         </form>
-        <button type="submit">Notify Me</button>
       </div>
       <div class="image">
         <img src="./images/illustration-dashboard.png" alt="Dashboard">
@@ -54,5 +55,7 @@
       <p class="rodape__texto">© Copyright Ping. All rights reserved.</p>
     </footer>
   </main>
+
+  <script src="./js/validarEmail.js"></script>
 </body>
 </html>

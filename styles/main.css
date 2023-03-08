@@ -35,16 +35,32 @@
     gap: 6px;
 }
 
-.email__input input {
+.email__input {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    gap: 10px;
+}
+
+input {
     width: 250px;
     padding: 12px;
-    color: var(--secundary-blue);
     border: 1px solid var(--secundary-blue);
     border-radius: 20px;
 }
 
 .email__input input::placeholder {
     color: var(--secundary-blue);
+}
+
+.invalid{
+    border-color: var(--secundary-red);
+}
+
+.email__error {
+    font-weight: 550;
+    font-size: 12px;
+    color: var(--secundary-red);
 }
 
 .email__form button {
