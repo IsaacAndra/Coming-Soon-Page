@@ -1,5 +1,6 @@
 const emailInput = document.getElementById('email');
 const emailError = document.getElementById('email-error');
+const btn = document.getElementById('submit');
 
 function validateEmail(email) {
     const regex = /\S+@\S+\.\S+/;
@@ -15,6 +16,10 @@ emailInput.addEventListener('blur', () => {
         emailError.textContent = '';
         emailInput.classList.remove('invalid');
     }
+})
+
+btn.addEventListener('click', function(e) {
+    e.preventDefault();
 })
 
 
