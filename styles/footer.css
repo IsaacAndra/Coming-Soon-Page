@@ -23,3 +23,15 @@
     color: var(--gray-color);
     font-size: 13px;
 }
+
+@media screen and (min-width: 1024px) {
+    .rodape__content {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .rodape__itens img {
+        width: 32px;
+    }
+}
