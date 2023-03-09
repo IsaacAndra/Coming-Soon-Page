@@ -12,7 +12,7 @@ o mesmo. No campo há a feature de validação, para que não seja colocado um e
 - JavaScript
 
 ## Como usar
-1. Acesse o site [Aqui](https://portfolio-andrade.vercel.app/).
+1. Acesse o site [Aqui](https://coming-soon-page-kappa-nine.vercel.app/).
 2. Preencha um campo com um email válido. Caso contrário, será impedido de fazer a interação.
 
 ## Feedback
