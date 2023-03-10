@@ -87,6 +87,12 @@ input {
         height: 90vh;
         max-width: 768px;
     }
+
+    .email__descricao img:hover{
+        transition: .2s;
+        opacity: .6;
+    }
+
     .email__titulo {
         color: hsl(0, 0%, 59%);
         font-size: 3em;
@@ -128,6 +134,8 @@ input {
         font-size: .7em;
         max-width: 480px;
         justify-content: center;
+        align-items: center;
+        margin: 0 0 0 67px;
     }
     
 }
