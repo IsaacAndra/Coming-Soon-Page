@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32x32.png">
+  <link rel="stylesheet" href="../styles/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Coming Soon Page</title>
+
+</head>
+<body>
+  <main class="principal">
+    <section class="container">
+      <div class="email__descricao">
+        <a href="#">
+          <img src="../images/logo.svg" alt="Logo Ping">
+        </a>
+        <h1 class="email__titulo">We are launching <b>soon!</b></h1>
+        <p class="email__texto">Subscribe and get notified</p>
+      </div>
+      <div class="email__form">
+        <form class="email__input">
+          <input type="email" name="email" id="email" placeholder="Your email address..." required>
+          <button type="submit" id="submit">Notify Me</button>
+        </form>
+        <div class="email__error" id="email-error"></div>
+      </div>
+      <div class="image">
+        <img src="../images/illustration-dashboard.png" alt="Dashboard">
+      </div>
+    </section>
+    <footer class="rodape">
+      <ul class="rodape__content">
+        <li class="rodape__itens">
+            <a 
+              href="http://facebook.com">
+              <img src="../images/icons8-f-do-facebook (1).svg" alt="Logo facebook">
+            </a>
+        </li>
+        <li class="rodape__itens">
+          <a 
+            href="http://twitter.com">
+            <img src="../images/icons8-twitter.svg" alt="Logo twitter">
+          </a>
+        </li>
+        <li class="rodape__itens">
+          <a 
+            href="http://instagram.com">
+            <img src="../images/icons8-instagram.svg" alt="Logo instagram">
+          </a>
+        </li>
+      </ul>
+      <p class="rodape__texto">© Copyright Ping. All rights reserved.</p>
+    </footer>
+  </main>
+
+  <script src="../js/validarEmail.js"></script>
+</body>
+</html>
