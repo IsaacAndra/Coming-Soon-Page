@@ -2,6 +2,7 @@ const emailInput = document.getElementById('email');
 const emailError = document.getElementById('email-error');
 const btn = document.getElementById('submit');
 
+
 function validateEmail(email) {
     const regex = /\S+@\S+\.\S+/;
     return regex.test(email);
@@ -19,7 +20,16 @@ emailInput.addEventListener('blur', () => {
 })
 
 btn.addEventListener('click', function(e) {
+    const email = emailInput.value;
     e.preventDefault();
+    if(!validateEmail(email)){
+        emailError.textContent = 'Could not complete the registration, please check if your email is valid';
+        emailInput.classList.add('invalid');
+    } else {
+        window.location.href = './checkSub.html';
+    }
+    
 })
+
 
 
